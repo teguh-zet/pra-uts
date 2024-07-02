@@ -34,6 +34,7 @@ const ProductForm = ({ initialProduct, onSave, onClose }) => {
         </label>
         <input
           name="price"
+          type="number"
           value={product.price}
           onChange={handleChange}
           placeholder="Harga"
